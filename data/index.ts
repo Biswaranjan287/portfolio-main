@@ -71,28 +71,12 @@ export const gridItems = [
 
 export const projects = [
     {
-        id: 1,
-        title: "Projects in Progress",
-        des: "Project currently in development — exploring new ideas and features.",
-        img: "/p1.svg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-        link: "",
-    },
-    {
-        id: 2,
-        title: "Projects in Progress",
-        des: "Project currently in development — exploring new ideas and features.",
-        img: "/p2.svg",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-        link: "",
-    },
-    {
-        id: 3,
-        title: "Projects in Progress",
-        des: "Project currently in development — exploring new ideas and features.",
-        img: "/p3.svg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-        link: "",
+    id: 1,
+    title: "Prescripto",
+    des: "Prescripto is a full-stack healthcare app for easy online appointment booking",
+    img: "/myp1.png",
+    iconLists: ["/mongodb.png", "/expressjs.png", "/react.png", "/nodejs1.webp"],
+    link: "https://prescripto-frontend-lwbs.onrender.com/",
     },
 ];
 

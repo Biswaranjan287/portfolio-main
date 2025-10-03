@@ -29,9 +29,14 @@ export const PinContainer = ({
   };
 
   return (
-    <div
+    // FIX: Replaced the outermost <div> with an <a> tag.
+    <a
+      href={href} // 1. Uses the project link
+      target="_blank" // 2. Opens in a new tab
+      rel="noopener noreferrer" // 3. Security best practice
       className={cn(
-        "relative group/pin z-50  cursor-pointer",
+        // Retained original styles, ensuring 'block' for full clickable area
+        "relative group/pin z-50 cursor-pointer block", 
         containerClassName
       )}
       onMouseEnter={onMouseEnter}
@@ -48,14 +53,14 @@ export const PinContainer = ({
           style={{
             transform: transform,
           }}
-          // remove  bg-black
-          className="absolute left-1/2 p-4 top-1/2  flex justify-start items-start  rounded-2xl  shadow-[0_8px_16px_rgb(0_0_0/0.4)] border border-white/[0.1] group-hover/pin:border-white/[0.2] transition duration-700 overflow-hidden"
+          // The rest of the inner structure is unchanged
+          className="absolute left-1/2 p-4 top-1/2 flex justify-start items-start rounded-2xl shadow-[0_8px_16px_rgb(0_0_0/0.4)] border border-white/[0.1] group-hover/pin:border-white/[0.2] transition duration-700 overflow-hidden"
         >
           <div className={cn(" relative z-50 ", className)}>{children}</div>
         </div>
       </div>
       <PinPerspective title={title} href={href} />
-    </div>
+    </a>
   );
 };
 
