@@ -1,9 +1,8 @@
 "use client";
-import { useState } from "react";
+import { useState, useRef } from "react"; 
 import { IoCopyOutline } from "react-icons/io5";
 
-import Lottie from "lottie-react"; // ✅ use lottie-react instead of react-lottie
-
+import Lottie, { LottieRefCurrentProps } from "lottie-react";
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
@@ -53,11 +52,17 @@ export const BentoGridItem = ({
   const rightLists = ["MongoDB", "NodeJS", "Tailwind"];
 
   const [copied, setCopied] = useState(false);
+  const lottieRef = useRef<LottieRefCurrentProps | null>(null);
+
 
   const handleCopy = () => {
     const text = "biswaranjanpradhan287@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
+    if (lottieRef.current) {
+      lottieRef.current.play();
+    }
+    
   };
 
   return (
@@ -155,13 +160,14 @@ export const BentoGridItem = ({
             <div className="mt-5 relative">
               <div
                 className={`absolute -bottom-5 right-0 ${
-                  copied ? "block" : "block"
+                  copied ? "block" : "hidden"
                 }`}
               >
                 <Lottie
+                  lottieRef={lottieRef}
                   animationData={animationData}
-                  loop={copied}
-                  autoplay={copied}
+                  loop={false}
+                  autoplay={false}
                   style={{ width: 400, height: 200 }}
                 />
               </div>
