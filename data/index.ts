@@ -78,6 +78,14 @@ export const projects = [
     iconLists: ["/mongodb.png", "/expressjs.png", "/react.png", "/nodejs1.webp"],
     link: "https://prescripto-frontend-lwbs.onrender.com/",
     },
+    {
+    id: 2,
+    title: "Cocktails",
+    des: "This is a sleek, black-themed website for Velvet Pour cocktails, featuring immersive videos, dynamic scroll effects, a menu, and contact information.",
+    img: "/myp2.png",
+    iconLists: ["/react.png", "/GSAP.png"],
+    link: "https://cocktails-green-zeta.vercel.app/",
+    },
 ];
 
 export const testimonials = [
@@ -103,61 +111,67 @@ export const testimonials = [
 ];
 
 export const companies = [
-    {
-        id: 1,
-        // name: "html",
-        img: "/html.png",
-        nameImg: "/cloudName.svg",
-    },
-    {
-        id: 2,
-        // name: "appwrite",
-        img: "/css.png",
-        nameImg: "/appName.svg",
-    },
-    {
-        id: 3,
-        // name: "HOSTINGER",
-        img: "/js.png",
-        nameImg: "/hostName.svg",
-    },
-    {
-        id: 4,
-        // name: "stream",
-        img: "/react.png",
-        nameImg: "/streamName.svg",
-    },
-    {
-        id: 5,
-        // name: "docker.",
-        img: "/nextjs.png",
-        nameImg: "/dockerName.svg",
-    },
-    
-    {
-        id: 6,
-        // name: "docker.",
-        img: "/mongodb.png",
-        nameImg: "/dockerName.svg",
-    },
-    {
-        id: 7,
-        // name: "docker.",
-        img: "/expressjs.png",
-        nameImg: "/dockerName.svg",
-    },
-    {
-        id: 8,
-        // name: "docker.",
-        img: "/typescript.png",
-        nameImg: "/dockerName.svg",
-    },
-    {
-        id: 9,
-        // name: "docker.",
-        img: "/github.png",
-        nameImg: "/dockerName.svg",
-    },
+  {
+    id: 1,
+    // name: "html",
+    img: "/html.png",
+    nameImg: "/cloudName.svg",
+  },
+  {
+    id: 2,
+    // name: "appwrite",
+    img: "/css.png",
+    nameImg: "/appName.svg",
+  },
+  {
+    id: 3,
+    // name: "HOSTINGER",
+    img: "/js.png",
+    nameImg: "/hostName.svg",
+  },
+  {
+    id: 4,
+    // name: "stream",
+    img: "/react.png",
+    nameImg: "/streamName.svg",
+  },
+  {
+    id: 5,
+    // name: "docker.",
+    img: "/nextjs.png",
+    nameImg: "/dockerName.svg",
+  },
+
+  {
+    id: 6,
+    // name: "docker.",
+    img: "/mongodb.png",
+    nameImg: "/dockerName.svg",
+  },
+  {
+    id: 7,
+    // name: "docker.",
+    img: "/expressjs.png",
+    nameImg: "/dockerName.svg",
+  },
+  {
+    id: 8,
+    // name: "docker.",
+    img: "/typescript.png",
+    nameImg: "/dockerName.svg",
+  },
+  {
+    id: 8,
+    // name: "docker.",
+    img: "/GSAP.png",
+    nameImg: "/dockerName.svg",
+  },
+  {
+    id: 9,
+    // name: "docker.",
+    img: "/github.png",
+    nameImg: "/dockerName.svg",
+  },
 ];
 
 export const workExperience = [
