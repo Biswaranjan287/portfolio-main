@@ -71,20 +71,38 @@ export const gridItems = [
 
 export const projects = [
     {
-    id: 1,
-    title: "Prescripto",
-    des: "Prescripto is a full-stack healthcare app for easy online appointment booking",
-    img: "/myp1.png",
-    iconLists: ["/mongodb.png", "/expressjs.png", "/react.png", "/nodejs1.webp"],
-    link: "https://prescripto-frontend-lwbs.onrender.com/",
+        id: 1,
+        title: "Prescripto",
+        des: "Prescripto is a full-stack healthcare app for easy online appointment booking",
+        img: "/myp1.png",
+        iconLists: [
+            "/mongodb.png",
+            "/expressjs.png",
+            "/react.png",
+            "/nodejs1.webp",
+        ],
+        link: "https://prescripto-frontend-lwbs.onrender.com/",
     },
     {
-    id: 2,
-    title: "Cocktails",
-    des: "This is a sleek, black-themed website for Velvet Pour cocktails, featuring immersive videos, dynamic scroll effects, a menu, and contact information.",
-    img: "/myp2.png",
-    iconLists: ["/react.png", "/GSAP.png"],
-    link: "https://cocktails-green-zeta.vercel.app/",
+        id: 2,
+        title: "Cocktails",
+        des: "This is a sleek, black-themed website for Velvet Pour cocktails, featuring immersive videos, dynamic scroll effects, a menu, and contact information.",
+        img: "/myp2.png",
+        iconLists: ["/react.png", "/GSAP.png"],
+        link: "https://cocktails-green-zeta.vercel.app/",
+    },
+    {
+        id: 3,
+        title: "Resume-Builder",
+        des: "It offers customizable templates, voice input capability, and a user-friendly interface to quickly generate job-ready documents with full control over design and visibility.",
+        img: "/myp3.png",
+        iconLists: [
+            "/mongodb.png",
+            "/expressjs.png",
+            "/react.png",
+            "/nodejs1.webp",
+        ],
+        link: "https://resume-builder-iudn.onrender.com/",
     },
 ];
 
@@ -94,7 +112,6 @@ export const testimonials = [
             "My web development journey began with a curiosity for front-end design. I started with the fundamentals of HTML, CSS, and JavaScript before moving on to modern frameworks like React. This allowed me to build dynamic and responsive interfaces. I specialize in using Tailwind CSS to create clean, user-friendly designs that balance aesthetics with functionality.",
         name: "",
         title: "",
-        
     },
     {
         quote:
@@ -111,67 +128,67 @@ export const testimonials = [
 ];
 
 export const companies = [
-  {
-    id: 1,
-    // name: "html",
-    img: "/html.png",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    // name: "appwrite",
-    img: "/css.png",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    // name: "HOSTINGER",
-    img: "/js.png",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    // name: "stream",
-    img: "/react.png",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    // name: "docker.",
-    img: "/nextjs.png",
-    nameImg: "/dockerName.svg",
-  },
+    {
+        id: 1,
+        // name: "html",
+        img: "/html.png",
+        nameImg: "/cloudName.svg",
+    },
+    {
+        id: 2,
+        // name: "appwrite",
+        img: "/css.png",
+        nameImg: "/appName.svg",
+    },
+    {
+        id: 3,
+        // name: "HOSTINGER",
+        img: "/js.png",
+        nameImg: "/hostName.svg",
+    },
+    {
+        id: 4,
+        // name: "stream",
+        img: "/react.png",
+        nameImg: "/streamName.svg",
+    },
+    {
+        id: 5,
+        // name: "docker.",
+        img: "/nextjs.png",
+        nameImg: "/dockerName.svg",
+    },
 
-  {
-    id: 6,
-    // name: "docker.",
-    img: "/mongodb.png",
-    nameImg: "/dockerName.svg",
-  },
-  {
-    id: 7,
-    // name: "docker.",
-    img: "/expressjs.png",
-    nameImg: "/dockerName.svg",
-  },
-  {
-    id: 8,
-    // name: "docker.",
-    img: "/typescript.png",
-    nameImg: "/dockerName.svg",
-  },
-  {
-    id: 8,
-    // name: "docker.",
-    img: "/GSAP.png",
-    nameImg: "/dockerName.svg",
-  },
-  {
-    id: 9,
-    // name: "docker.",
-    img: "/github.png",
-    nameImg: "/dockerName.svg",
-  },
+    {
+        id: 6,
+        // name: "docker.",
+        img: "/mongodb.png",
+        nameImg: "/dockerName.svg",
+    },
+    {
+        id: 7,
+        // name: "docker.",
+        img: "/expressjs.png",
+        nameImg: "/dockerName.svg",
+    },
+    {
+        id: 8,
+        // name: "docker.",
+        img: "/typescript.png",
+        nameImg: "/dockerName.svg",
+    },
+    {
+        id: 8,
+        // name: "docker.",
+        img: "/GSAP.png",
+        nameImg: "/dockerName.svg",
+    },
+    {
+        id: 9,
+        // name: "docker.",
+        img: "/github.png",
+        nameImg: "/dockerName.svg",
+    },
 ];
 
 export const workExperience = [
@@ -209,16 +226,16 @@ export const socialMedia = [
     {
         id: 1,
         img: "/git.svg",
-        link:"https://github.com/Biswaranjan287"
+        link: "https://github.com/Biswaranjan287",
     },
     {
         id: 2,
         img: "/twit.svg",
-        link:"https://x.com/Biswaranja_08"
+        link: "https://x.com/Biswaranja_08",
     },
     {
         id: 3,
         img: "/link.svg",
-        link:"https://www.linkedin.com/in/biswaranjan-pradhan-8a841a34a/"
+        link: "https://www.linkedin.com/in/biswaranjan-pradhan-8a841a34a/",
     },
 ];
